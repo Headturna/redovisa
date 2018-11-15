@@ -1,25 +1,23 @@
 ---
-title: "Min fina titel"
+title: "Suraj Sharma"
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/selfie.JPG?w=200" class="right" caption="Suraj Sharma"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Mitt namn är Suraj Sharma och detta är min sida!
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag föddes i Berlin, Tyskland år 1990 och flyttade till sverige år 1991. Mina föräldrar är från de norra delarna av Indien.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag har sedan 1991 bott i Uppsala men år 2015 flyttade jag själv till Karlskrona för att studera på BTH som en spelprogrammerare.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Utbildningen har gått bra men efter lite svårigheter i livet så bestämde jag mig för att prova på lite olika former av programmering. Jag valde Webbprogrammering för att jag alltid har facinerats av ämnet och jag vill gärna bli en sån all-round programmerare som möjligt!
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+I framtiden vill jag arbeta på ett spelutvecklingsföretag helst, men jag nöjer mig med vad som helst, bara jag får programmera!
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Just nu kan jag koda i C++, Java, Lua, Python, C#, C och nu lite i HTML, CSS, och PHP.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Tack för att ni läste detta!
 
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Mvh, Suraj Sharma

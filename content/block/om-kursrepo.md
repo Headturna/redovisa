@@ -1,3 +1,3 @@
 #### Kursrepo
 
-Skriv något kort om kursen och länka till [kursens hemsida på dbwebb.se](XXX) och till [kursrepot på GitHub](XXX).
+Se hemsidan på BTH's studentservrar <a href="http://www.student.bth.se/~sush15/dbwebb-kurser/design/me/redovisa/htdocs/" target="_blank">här</a>.
