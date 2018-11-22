@@ -1,0 +1,250 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+ // /* Hide submenu, leave this to kmom02 */
+ // .rm-desktop ul {
+ //     display: none;
+ // }
+ //
+ // /* Hide responsive/mobile menu, leave this to kmom02 */
+ // .rm-navbar-max {
+ //     display: none;
+ // }
+
+// .outer-wrap {
+//
+// }
+
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.wrap-all {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+//REGION: HEADER ================================
+.outer-wrap-header {
+    background-color: rgba(20, 20, 20, 0.9);
+    .clearfix();
+    //border: 5px solid red;
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+    overflow: hidden;
+    //border: 4px solid green;
+}
+
+.region-header {
+
+    //border: 2px solid white;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-header-col-1 {
+    width: 20%;
+    float: left;
+}
+
+.region-header-col-2 {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.region-header-col-3 {
+    width: 20%;
+    float: left;
+}
+
+//REGION: NAVBAR ================================
+// .region-navbar {
+//
+// }
+
+.rm-navbar ul {
+    list-style: none;
+}
+
+.rm-navbar ul li {
+
+}
+
+.rm-navbar ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.rm-navbar ul li a:hover {
+    color: green;
+}
+
+//REGION: FLASH ================================
+.region-flash {
+    width: 100%;
+    overflow: hidden;
+}
+
+//REGION: BREADCRUMB ================================
+.region-breadcrumb {
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+.region-breadcrumb ul {
+    list-style: none;
+}
+
+.region-breadcrumb ul li {
+
+}
+
+.region-breadcrumb ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.region-breadcrumb ul li a:hover {
+    color: green;
+}
+//REGION: FLASH-MESSAGE ================================
+// .region-flash-message {
+//
+// }
+
+//REGION: COLUMNS ABOVE ================================
+// .region-columns-above {
+//
+// }
+
+//REGION: MAIN ================================
+// .outer-wrap-main {
+//
+// }
+
+.inner-wrap-main {
+    background-color: rgba(20, 20, 20, 0.9);
+    .clearfix();
+}
+
+.region-main {
+    width: 100%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    &.has-sidebar {
+        width: 65%;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 50%;
+    }
+}
+
+//REGION: SIDEBAR BOTH
+.wrap-sidebar {
+    min-height: 100%;
+    margin-top: 5px;
+    padding-left: 2%;
+}
+
+.wrap-sidebar .block {
+    padding-left: 5%;
+    margin-bottom: 50px;
+    border-top: 6px solid rgba(255, 255, 255, 0.4);
+}
+
+//REGION: SIDEBAR LEFT ================================
+// .wrap-sidebar {
+//
+// }
+
+.region-sidebar-left {
+    width: 25%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right {
+    width: 20%;
+}
+
+.region-sidebar-left ul {
+    list-style: none;
+}
+
+.region-sidebar-left ul li {
+
+}
+
+.region-sidebar-left ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.region-sidebar-left ul li a:hover {
+    color: green;
+}
+
+//REGION: SIDEBAR RIGHT ================================
+.region-sidebar-right {
+    width: 25%;
+    float: left;
+}
+
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+.region-sidebar-right a {
+    color: green;
+    text-decoration: none;
+}
+
+.region-sidebar-right a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+//REGION: AFTER MAIN ================================
+// .region-after-main {
+//
+// }
+
+//REGION: COLUMNS BELOW ================================
+// .region-columns-below {
+//
+// }
+
+//REGION: FOOTER ================================
+.outer-wrap-footer {
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+// .inner-wrap-footer {
+//     border: 2px solid green;
+// }
+
+.region-footer {
+
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
