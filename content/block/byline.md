@@ -1,4 +1,3 @@
-<hr>
 
 [FIGURE src="image/selfie.JPG?w=50" class="left" caption="Suraj Sharma"]
 

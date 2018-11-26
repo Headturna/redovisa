@@ -28,4 +28,5 @@ Vi lär oss hur man lägger till "block" som det kallas och hur man använder ra
 Vi använder oss av *Markdown*, *HTML*, *PHP* och *CSS* för att skapa hemsidan. Dessa språken används tillsammans på ett sätt som gör det lätt att skapa en dynamisk sida som är lätt att utöka med mer innehåll.
 
 I kursen så lär vi oss även att använda GitHub och olika terminalkommandon som även kan användas i andra projekt.
+
 [FIGURE src=image/forest1.jpg?w=400]
