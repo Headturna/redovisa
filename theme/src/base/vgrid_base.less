@@ -1,0 +1,29 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: rgba(20, 20, 20, 0.9);
+@bgColorBody: #fff;
+@colorBody: #333;
+//@fontFamilyBody: "Open Sans";
+//@fontSize: 16px;
+//@lineHeight: normal;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    //font: 100.01%/1 @fontFamilyBody;
+    //font-size: @fontSize;
+    //line-height: @lineHeight;
+    background-image: url("../img/bakgrund.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
