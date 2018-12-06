@@ -3,7 +3,7 @@
  */
 @bgColorHtml: rgba(20, 20, 20, 0.9);
 @bgColorBody: #fff;
-@colorBody: #333;
+@colorBody: rgba(255, 255, 255, 0.8);
 //@fontFamilyBody: "Open Sans";
 //@fontSize: 16px;
 //@lineHeight: normal;
@@ -27,6 +27,22 @@ body {
     background-position: center;
     background-attachment: fixed;
     #desinax-hgrid.font(@fontSizeBody);
+}
+
+div {
+    display: block;
+}
+
+ a {
+    color: rgba(13, 135, 125, 0.7);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+ a:hover {
+    //text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
+    color: rgba(13, 135, 125, 1.0);
+    text-decoration: none;
 }
 
 img {

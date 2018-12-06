@@ -20,14 +20,14 @@
 
 // header h1-h6 borders
 @colorH1BorderBottom: #666;
-@colorH2BorderBottom: #CCC;
-@colorH3BorderBottom: #EEE;
+@colorH2BorderBottom: rgba(255, 255, 255, 0.6);
+@colorH3BorderBottom: rgba(255, 255, 255, 0.2);
 @colorH4BorderBottom: #EEE;
 @colorH5BorderBottom: #EEE;
 @colorH6BorderBottom: #EEE;
 @borderSizeH1: 0px;
-@borderSizeH2: 0px;
-@borderSizeH3: 0px;
+@borderSizeH2: 2px;
+@borderSizeH3: 1px;
 @borderSizeH4: 0px;
 @borderSizeH5: 0px;
 @borderSizeH6: 0px;
@@ -128,7 +128,7 @@
 
             // Single margin when subheader follows directly
             & + h2 {
-                margin-top: @magicNumber;
+                margin-top: @magicNumber * 2;
             }
         }
 
