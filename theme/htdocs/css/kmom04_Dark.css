@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * Mixins.
@@ -4608,12 +4608,12 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: rgba(20, 20, 20, 0.9);
+  background-color: rgba(10, 10, 10, 0.9);
 }
 body {
   margin: 0;
   padding: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   background-color: #fff;
   background-image: url("../img/bakgrund.jpg");
   background-size: cover;
@@ -4626,12 +4626,12 @@ div {
   display: block;
 }
 a {
-  color: rgba(13, 135, 125, 0.7);
+  color: rgba(41, 92, 173, 0.7);
   text-decoration: none;
   transition: 0.2s;
 }
 a:hover {
-  color: #0d877d;
+  color: #295cad;
   text-decoration: none;
 }
 img {
@@ -5005,7 +5005,7 @@ hr::after {
   }
 }
 .outer-wrap-header {
-  background-color: rgba(20, 20, 20, 0.9);
+  background-color: rgba(10, 10, 10, 0.9);
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5044,19 +5044,19 @@ hr::after {
   transition: 0.1s;
 }
 .rm-small .rm-button:hover {
-  color: #0d877d;
+  color: #295cad;
 }
 .rm-desktop {
   list-style: none;
 }
 .rm-desktop li {
   min-width: 150px;
-  border-bottom: 2px solid rgba(13, 135, 125, 0);
-  transition: 0.2s;
+  border-bottom: 2px solid rgba(41, 92, 173, 0);
+  transition: 0.1s;
 }
 .rm-desktop li:hover {
   background-color: rgba(20, 20, 20, 0.4);
-  border-bottom: 2px solid #0d877d;
+  border-bottom: 2px solid #295cad;
 }
 .rm-desktop li:active {
   background-color: rgba(0, 0, 0, 0.8);
@@ -5065,7 +5065,7 @@ hr::after {
 .rm-desktop li a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .rm-desktop li a:hover {
   text-decoration: none;
@@ -5094,13 +5094,13 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: rgba(20, 20, 20, 0.9);
+  background-color: rgba(10, 10, 10, 0.9);
 }
 .region-breadcrumb ul {
   list-style: none;
 }
 .inner-wrap-main {
-  background-color: rgba(20, 20, 20, 0.9);
+  background-color: rgba(10, 10, 10, 0.9);
 }
 .region-main {
   display: inline;
@@ -5135,7 +5135,7 @@ hr::after {
   margin-left: 4.6875%;
 }
 .region-main article h1 {
-  border-left: 5px solid rgba(13, 135, 125, 0.6);
+  border-left: 5px solid rgba(41, 92, 173, 0.6);
   padding-left: 4%;
 }
 .region-main article h1::after {
@@ -5240,7 +5240,7 @@ hr::after {
   list-style: none;
 }
 .region-sidebar-left h4 {
-  border-left: 5px solid rgba(13, 135, 125, 0.6);
+  border-left: 5px solid rgba(41, 92, 173, 0.6);
   padding-left: 10px;
 }
 .region-sidebar-left ul li a {
@@ -5252,7 +5252,7 @@ hr::after {
 }
 .region-sidebar-left ul li a:hover {
   color: #ffffff;
-  border-left: 2px solid #0d877d;
+  border-left: 2px solid #295cad;
   text-decoration: none;
 }
 .region-sidebar-left ul li a:active {
@@ -5286,7 +5286,7 @@ hr::after {
   margin-left: 4.6875%;
 }
 .region-sidebar-right h4 {
-  border-left: 5px solid rgba(13, 135, 125, 0.6);
+  border-left: 5px solid rgba(41, 92, 173, 0.6);
   padding-left: 10px;
 }
 @media screen and (max-width: 850px) {
@@ -5300,7 +5300,7 @@ hr::after {
   }
 }
 .outer-wrap-footer {
-  background-color: rgba(20, 20, 20, 0.9);
+  background-color: rgba(10, 10, 10, 0.9);
 }
 .inner-wrap-footer {
   margin-right: auto;

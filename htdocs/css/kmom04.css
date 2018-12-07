@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * Mixins.
@@ -5052,7 +5052,7 @@ hr::after {
 .rm-desktop li {
   min-width: 150px;
   border-bottom: 2px solid rgba(13, 135, 125, 0);
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .rm-desktop li:hover {
   background-color: rgba(20, 20, 20, 0.4);
@@ -5065,7 +5065,7 @@ hr::after {
 .rm-desktop li a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .rm-desktop li a:hover {
   text-decoration: none;
@@ -5393,4 +5393,5 @@ hr::after {
 }
 /**
  * My own settings, not currently in their own module.
+
  */

@@ -3,7 +3,29 @@
  */
 @bgColorHtml: rgba(20, 20, 20, 0.9);
 @bgColorBody: #fff;
-@colorBody: rgba(255, 255, 255, 0.8);
+@textColor: rgba(255, 255, 255, 0.8);
+@linkColor: rgba(13, 135, 125, 0.7);
+@linkColorHover: rgba(13, 135, 125, 1.0);
+@smallMenuColor: rgba(13, 135, 125, 1.0);
+@navBorderBottomColor: rgba(13, 135, 125, 0);
+@navBorderBottomColorHover: rgba(13, 135, 125, 1.0);
+@navBorderBottomColorActive: rgba(0, 0, 0, 0.5);
+@navBGColorHover: rgba(20, 20, 20, 0.4);
+@navBGColorActive: rgba(0, 0, 0, 0.8);
+@navTextColor: rgba(255, 255, 255, 0.8);
+@navTextColorHover: rgba(255, 255, 255, 1.0);
+@navTextColorActive: rgba(20, 20, 20, 0.4);
+
+@borderLeftColor: rgba(13, 135, 125, 0.6);
+@blockBorderColor: rgba(255, 255, 255, 0.2);
+@h4BorderLeftColor: rgba(13, 135, 125, 0.6);
+
+@leftMenuLinkColor: rgba(255, 255, 255, 0.8);
+@leftMenuLinkColorHover: rgba(255, 255, 255, 1.0);
+@leftMenuLinkColorActive: rgba(20, 20, 20, 1.0);
+@leftMenuBorderLeftColor: rgba(255, 255, 255, 0.2);
+@leftMenuBorderLeftColorHover: rgba(13, 135, 125, 1.0);
+@leftMenuBorderLeftColorActive: rgba(0, 0, 0, 0.7);
 //@fontFamilyBody: "Open Sans";
 //@fontSize: 16px;
 //@lineHeight: normal;
@@ -16,7 +38,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    color: @colorBody;
+    color: @textColor;
     background-color: @bgColorBody;
     //font: 100.01%/1 @fontFamilyBody;
     //font-size: @fontSize;
@@ -34,14 +56,14 @@ div {
 }
 
  a {
-    color: rgba(13, 135, 125, 0.7);
+    color: @linkColor;
     text-decoration: none;
     transition: 0.2s;
 }
 
  a:hover {
     //text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
-    color: rgba(13, 135, 125, 1.0);
+    color: @linkColorHover;
     text-decoration: none;
 }
 
