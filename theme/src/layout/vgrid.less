@@ -71,7 +71,7 @@
 }
 
 .region-header-col-1 {
-    #desinax-vgrid.column(5);
+    #desinax-vgrid.column(4);
     // width: 20%;
     // float: left;
 }
@@ -90,14 +90,14 @@
 }
 
 .region-header-col-2 {
-    #desinax-vgrid.column(14);
+    #desinax-vgrid.column(16);
     // width: 60%;
     // float: left;
     text-align: center;
 }
 
 .region-header-col-3 {
-    #desinax-vgrid.column(5);
+    #desinax-vgrid.column(4);
     // width: 20%;
     // float: left;
 }
@@ -180,6 +180,25 @@
 
 }
 
+.region-breadcrumb ul li a {
+    color: @leftMenuLinkColor;
+    text-decoration: none;
+    border-left: 5px solid @leftMenuBorderLeftColor;
+    padding-left: 1%;
+    transition: 0.2s;
+}
+
+.region-breadcrumb ul li a:hover {
+    color: @leftMenuLinkColorHover;
+    border-left: 2px solid @leftMenuBorderLeftColorHover;
+    text-decoration: none;
+}
+
+.region-breadcrumb ul li a:active {
+    color: @leftMenuLinkColorActive;
+    border-left: 2px solid @leftMenuBorderLeftColorActive;
+}
+
 // .region-breadcrumb ul li a {
 
 // }
@@ -259,6 +278,8 @@
 // }
 
 .region-main .block {
+    margin-top: @magicNumber;
+    padding-top: @magicNumber;
     border-top: 1px solid @blockBorderColor;
     text-align: center;
 }
@@ -295,9 +316,16 @@
 .wrap-sidebar .block {
     //padding-left: 5%;
     border-bottom: 1px solid @blockBorderColor;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: @magicNumber;
+    margin-bottom: @magicNumber;
     //border-top: 6px solid rgba(255, 255, 255, 0.4);
+}
+
+.blog-list-item {
+    margin-bottom: @magicNumber;
+    padding-top: @magicNumber;
+    border-top: 1px solid @blockBorderColor;
+    //border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media screen and (max-width: 850px) {
@@ -348,14 +376,6 @@
     // width: 20%;
 }
 
-.region-sidebar-left ul {
-    list-style: none;
-}
-
-.region-sidebar-left ul li {
-
-}
-
 .region-sidebar-left h4 {
     border-left: 5px solid @h4BorderLeftColor;
     padding-left: 10px;
@@ -368,6 +388,14 @@
 // .region-sidebar-left a:hover {
 
 // }
+
+.region-sidebar-left ul {
+    list-style: none;
+}
+
+.region-sidebar-left ul li {
+
+}
 
 .region-sidebar-left ul li a {
     color: @leftMenuLinkColor;
@@ -427,6 +455,33 @@
 // .region-sidebar-right a:hover {
 
 // }
+
+.region-sidebar-right ul {
+    list-style: none;
+}
+
+.region-sidebar-right ul li {
+
+}
+
+.region-sidebar-right ul li a {
+    color: @leftMenuLinkColor;
+    text-decoration: none;
+    border-left: 5px solid @leftMenuBorderLeftColor;
+    padding-left: 5%;
+    transition: 0.2s;
+}
+
+.region-sidebar-right ul li a:hover {
+    color: @leftMenuLinkColorHover;
+    border-left: 2px solid @leftMenuBorderLeftColorHover;
+    text-decoration: none;
+}
+
+.region-sidebar-right ul li a:active {
+    color: @leftMenuLinkColorActive;
+    border-left: 2px solid @leftMenuBorderLeftColorActive;
+}
 
 @media screen and (max-width: 850px) {
     .region-sidebar-right {

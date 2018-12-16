@@ -58,5 +58,10 @@ return [
             "url" => "test",
             "title" => "Min markdown-test sida.",
         ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Min blogg",
+        ],
     ],
 ];

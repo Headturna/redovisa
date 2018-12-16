@@ -3,6 +3,15 @@ Revision history
 
 
 
+v1.0.16 (2018-11-12)
+---------------------------------
+
+* Adding article on 'Vyer och Templatefiler'.
+* Adding article on 'Styla en route'.
+* Update articles on 'grid'.
+
+
+
 v1.0.15 (2018-10-30)
 ---------------------------------
 

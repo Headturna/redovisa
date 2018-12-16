@@ -3,6 +3,30 @@ Revision history
 
 
 
+v2.0.0-beta.13 (2018-12-03)
+---------------------------------
+
+* Add view/anax/v2 for the blog.
+* Re-adding view helper function wrapElementWithStartEnd.
+* Re-adding view helper function wrapElementContentWithStartEnd.
+* Fix missing tpl-variable in View/ViewCollection when using blog.
+
+
+
+v2.0.0-beta.12 (2018-11-05)
+---------------------------------
+
+* Fix code style validation in file render.
+
+
+
+v2.0.0-beta.11 (2018-11-05)
+---------------------------------
+
+* Fix code style validation (again).
+
+
+
 v2.0.0-beta.10 (2018-11-02)
 ---------------------------------
 

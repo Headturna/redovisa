@@ -29,4 +29,4 @@ Vi använder oss av *Markdown*, *HTML*, *PHP* och *CSS* för att skapa hemsidan.
 
 I kursen så lär vi oss även att använda GitHub och olika terminalkommandon som även kan användas i andra projekt.
 
-[FIGURE src=image/forest1.jpg?w=400]
+[FIGURE src="image/forest1.jpg?w=400" class="center" caption="Forest painting."]

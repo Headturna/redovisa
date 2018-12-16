@@ -20,13 +20,13 @@
 
 // header h1-h6 borders
 @colorH1BorderBottom: #666;
-@colorH2BorderBottom: rgba(255, 255, 255, 0.6);
+@colorH2BorderBottom: rgba(255, 255, 255, 0.4);
 @colorH3BorderBottom: rgba(255, 255, 255, 0.2);
-@colorH4BorderBottom: #EEE;
+@colorH4BorderBottom: rgba(255, 255, 255, 0);
 @colorH5BorderBottom: #EEE;
 @colorH6BorderBottom: #EEE;
 @borderSizeH1: 0px;
-@borderSizeH2: 2px;
+@borderSizeH2: 1px;
 @borderSizeH3: 1px;
 @borderSizeH4: 0px;
 @borderSizeH5: 0px;
@@ -49,10 +49,10 @@
 @colorBlockquoteBorder: #eee;
 @sizeBlockquoteBorder: 4px;
 
-@borderColorCodeInline: #ccc;
-@bgColorCodeInline:     rgba(50, 50, 50, 1);
-@bgColorCodeBlock:      rgba(20, 20, 20, 1);
-@colorCodeBlockBorder:  #ccc;
+@borderColorCodeInline: rgba(255, 255, 255, 0.3);
+@bgColorCodeInline:     rgba(50, 50, 50, 0.8);
+@bgColorCodeBlock:      rgba(50, 50, 50, 0.8);
+@colorCodeBlockBorder:  rgba(255, 255, 255, 0.3);
 @borderSizeCodeblock:   1px;
 
 @colorTableHeaderBorder:    #aaa;
@@ -128,7 +128,7 @@
 
             // Single margin when subheader follows directly
             & + h2 {
-                margin-top: @magicNumber * 2;
+                margin-top: @magicNumber;
             }
         }
 
