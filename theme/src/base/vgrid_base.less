@@ -3,6 +3,7 @@
  */
 @bgColorHtml: rgba(20, 20, 20, 0.9);
 @bgColorBody: #fff;
+@bgImage: url("../img/bakgrund.jpg");
 @textColor: rgba(255, 255, 255, 0.8);
 @linkColor: rgba(13, 135, 125, 0.7);
 @linkColorHover: rgba(13, 135, 125, 1.0);
@@ -43,7 +44,7 @@ body {
     //font: 100.01%/1 @fontFamilyBody;
     //font-size: @fontSize;
     //line-height: @lineHeight;
-    background-image: url("../img/bakgrund.jpg");
+    background-image: @bgImage;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

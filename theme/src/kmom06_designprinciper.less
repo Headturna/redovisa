@@ -1,0 +1,143 @@
+/*!
+ * Stylesheet for design kmom05.
+ *
+ * This stylesheet is for the design course and kmom05 where we use LESS.
+ */
+
+
+
+/**
+ * Mixins.
+ */
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+
+
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+//Adapt typographic grid here
+
+
+
+/**
+ * Import figure.
+ */
+@import "@desinax/figure/less/figure.less";
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+//@import "base/base_default.less";
+//@import "base/base.less";
+@import "base/vgrid_base.less";
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+// Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/layout_default.less";
+//@import "layout/responsive_default.less";
+@import "layout/vgrid.less";
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+
+/**
+ * My own settings, not currently in their own module.
+
+ */
+
+ @bgColorHtml: rgba(200, 200, 200, 0.9);
+ @bgColorBody: #fff;
+ @bgImage: url("../img/backgroundgrey.jpg");
+ @textColor: rgba(20, 20, 20, 0.8);
+ @linkColor: rgba(255, 20, 20, 0.7);
+ @linkColorHover: rgba(255, 20, 20, 1.0);
+ @smallMenuColor: rgba(41, 92, 173, 1.0);
+ @navBorderBottomColor: rgba(255, 50, 50, 0);
+ @navBorderBottomColorHover: rgba(255, 50, 50, 1.0);
+ @navBorderBottomColorActive: rgba(0, 0, 0, 0.5);
+ @navBGColorHover: rgba(20, 20, 20, 0.6);
+ @navBGColorActive: rgba(0, 0, 0, 0.8);
+ @navTextColor: rgba(20, 20, 20, 0.8);
+ @navTextColorHover: rgba(255, 255, 255, 1.0);
+ @navTextColorActive: rgba(20, 20, 20, 0.4);
+
+ @borderLeftColor: rgba(255, 50, 50, 0.6);
+ @blockBorderColor: rgba(255, 255, 255, 0.2);
+ @h4BorderLeftColor: rgba(255, 50, 50, 0.6);
+
+ @leftMenuLinkColor: rgba(20, 20, 20, 0.8);
+ @leftMenuLinkColorHover: rgba(255, 255, 255, 1.0);
+ @leftMenuLinkColorActive: rgba(20, 20, 20, 1.0);
+ @leftMenuBorderLeftColor: rgba(255, 255, 255, 0.2);
+ @leftMenuBorderLeftColorHover: rgba(255, 50, 50, 1.0);
+ @leftMenuBorderLeftColorActive: rgba(0, 0, 0, 0.7);
